@@ -65,9 +65,6 @@ Route::any('delete/{id}',[UserController::class, 'delete_dorm_member']);
 Route::get('editMember/{id}',[UserController::class, 'showData']);
 
 Route::post('editMember/',[UserController::class, 'update']);
-Route::post('editMember/',[UserController::class, 'update']);
-
-
 
 
 Route::any('delete/{id}',[UserController::class, 'delete_scolarship_member']);
